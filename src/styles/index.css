@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    font-size: 10px;
+}
+.wrapper {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+.App {
+    min-height: 100vh;
+}
+.controlBtn {
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 16px;
+    padding: 1.6rem 0;
+    text-align: center;
+    color: white;
+    transition: filter .3s;
+}
+.controlBtn:hover {
+    filter: brightness(85%);
+}
+.blueBtn {
+    background: #4165C2;
+}
+.redBtn {
+    background: #DC3131;
+}
+.greenBtn {
+    background: #36B83B;
+}
+
+.videoArea {
+    background: gray;
+    border-radius: 1.6rem;
+    min-height: 100%;
+    overflow: hidden;
+}
+.videoArea video {
+    object-fit: cover;
+}
+.isSearchingVideo {
+    filter: brightness(80%);
+}
+.searchingText {
+    font-size: 2.4rem;
+    color: white;
+}
